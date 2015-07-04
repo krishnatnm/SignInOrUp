@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+    
+    <EditText
+        android:id="@+id/forgot_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#94979b"
+        android:textColor="#4d5359" />
+    
+    <EditText
+        android:id="@+id/forgot_pass1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgot_email"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#4d5359"
+        android:textColorHint="#94979b" />
+
+    <EditText
+        android:id="@+id/forgot_pass2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgot_pass1"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        android:textColor="#4d5359"
+        android:textColorHint="#94979b" />
+    
+    <Button
+        android:id="@+id/forgot_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgot_pass2"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:ems= "10"
+        android:text="Okay"
+        android:textColor="#4d5359" />
+
+</LinearLayout>

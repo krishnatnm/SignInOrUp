@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SignInOrUp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="action_logout">Logout</string>
+	<string name="welcome">Welcome!!</string>
+	<string name="msg">You are logged in.</string>
+	<string name="forgot">Forgot Your Password???</string>
+	<string name="signup">Not a member? Sign Up now.</string>
+    <string name="signin">Already a member? Sign In!</string>
+    
+</resources>
